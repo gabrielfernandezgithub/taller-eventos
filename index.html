@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botón de Saludo</title>
+</head>
+<body>
+    <h1>¡Bienvenido!</h1>
+    <p>Presiona el botón para saludar:</p>
+    <button id="saludarButton">Saludar</button>
+
+    <script>
+        const saludarButton = document.getElementById('saludarButton');
+        saludarButton.addEventListener('click', () => {
+            alert('¡Hola! ¡Bienvenido a mi sitio web!');
+        });
+    </script>
+</body>
+</html>
