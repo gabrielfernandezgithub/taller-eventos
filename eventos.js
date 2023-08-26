@@ -1,7 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
-    const divContainer = document.querySelector('.boton-container');
-
-    divContainer.addEventListener('click', function() {
-        alert('¡Hola! Soy el div');
-    });
-});
+function mostrarAlerta(event) {
+    event.stopPropagation();
+    alert('¡Hola desde eventos.js!');
+}
